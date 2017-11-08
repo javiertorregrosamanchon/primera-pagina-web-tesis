@@ -1,0 +1,321 @@
+	@charset "utf-8";
+	*{
+		box-sizing: border-box;
+	}
+	
+	
+	/* estilo general*/
+	body{
+		background-color:white;
+		margin:0;
+		 /*background-image: url("../fotos/fondoweb2.png");
+		 background-size: cover;
+		 background-attachment: fixed;*/
+	}
+	/*estilo header*/
+	.titulo {
+		margin:0;
+		top:0;
+		background-color:black;
+		overflow:auto;
+		padding: 8px;
+	}
+	.cabecera {
+		float: left;
+		width:82%;
+		text-align:center;
+		vertical-align:middle;
+		line-height:normal;
+		font-size:17px;
+		color: white;
+		margin: 0 3% 0 2%
+	}
+	/* .cabecera2 { */
+		/* background-color: #82CBD3; */
+		/* float: left; */
+		/* width: 100%; */
+		/* text-align:center; */
+		/* vertical-align:middle; */
+		/* line-height:normal; */
+		/* font-size: 17px; */
+	/* } */
+	.esconderpc{display:none}
+	.logoimg{
+		width: 60%;
+	}
+	.logo {
+		margin: 0 auto 0 0;
+		float: left;
+		width: 10%;	
+	}
+	
+	.google {
+		margin: 3% 0 3% 2%;
+		width: 15%;
+		float:left;
+	}
+	.imggoogle {
+		width: 95%;
+		vertical-align: middle;
+	}
+	.botongoogle{
+		width:25%;
+		background-color: white;
+		border-radius:10px;
+		padding:5px;
+	}
+	/*estilo logo*/
+	.logoname {
+	text-decoration:none;
+}
+	/*estilo presentación*/
+	.presentación>p:first-letter {
+	font-size: 200%;
+}
+	.presentación3>p:first-letter {
+	font-size: 200%;
+	}
+	#fuentescolitido1{
+	text-align:left;
+}
+.imgpino{
+	min-height:300px;
+    background-image: url("../fotos/pinos.png");
+	background-size: cover;
+	
+}
+.presentación3{
+	padding: 0 10% 0 10%;
+	float: left;
+	width: 100%;
+	background-color:white;
+	text-align:justify;
+	font-size: 23px;
+}
+	.presentación,.tabla,.divcontacto,.descripciondiv,.resultadodiv,.habody,.prox,.suelo {
+	padding: 0 10% 0 10%;
+	float: left;
+	width: 100%;
+	min-height:600px;
+	background-color:white;
+	text-align:justify;
+	font-size: 23px;
+	}
+	.mifoto {
+	margin: 0 auto;
+	display:block;
+	width:15%;
+    }
+	.desh3{
+	font-size:30px;
+	text-align:center;
+	font-style: italic;
+	}
+	.bienvenido{
+		text-align:center;
+	}
+	.bienvenida{
+		text-align:justify;
+	}
+	.presentacion2,.titulodescrip{
+	font-size:40px;
+	text-align:center;
+	font-style: italic;
+	}
+	.mountori{
+		width: 90%;
+		margin:3% 5% 0 5%;
+	}
+	/*estilo menú*/
+	* {
+	padding: 0px; 
+	}
+	.opciones{
+		background-color:#CFCFCF;
+		
+	}
+	.nivel1{
+		background-color: black;
+		
+	}
+	.nivel2{
+		background-color: #CFCFCF;
+		
+	}
+	#menu {
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	margin:-2% 0;
+	}
+
+	#menu ul {
+	list-style-type: none;
+	}
+	nav>ul>li{
+	float:left;	
+	width:20%;
+	position:relative;
+	}
+	nav>ul>li>a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	}
+	nav>ul>li>ul>li>a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+	}
+	
+	.nivel2 {
+	display:none;
+	position:absolute;
+	width:100%;
+	}
+	.opciones {
+	display:none;
+	}
+	nav ul li:hover > ul{
+		display: block;	
+	}
+	nav ul li {
+		position:relative;
+	}
+	nav ul li ul li {
+		position:relative;
+	}
+	nav ul li ul li:hover >ul{
+		display:block;
+		position:absolute;
+		width:100%;
+		left: 100%;
+		top:0;
+	}
+	nav>ul>li>ul>li>ul>li>a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+	}
+	#menu ul li ul li a {
+	padding: 8px 0px;
+	}
+	/*estilo iconos contacto */
+	.contacto {
+		margin:0 auto;
+		width:2%;
+	}
+	.divimgcont{
+		float:left;
+	}
+	/*estilo de las tablas */
+	tr:nth-child(odd){
+		background-color:grey;
+	}
+	tr:nth-child(even){
+		background-color:;
+	}
+	.titulotabla {
+	text-align: center;
+	}
+	.comentario1{
+	text-align: justify;
+	}
+	.grafico2 {
+	float: left;
+	width: 100%;
+	}
+	.graficoimg2{
+	width:60%;
+	display:block;
+	margin:0 auto 0 auto;
+	}
+	.grafico1 {
+	float: left;
+	width: 100%;
+	}
+	.graficoimg1{
+		width:80%;
+		display:block;
+		margin:0 auto;
+	}
+	.fuente{
+		clear:both;
+	}
+	.tabla1 {
+	float: left;
+	width: 29%;
+	margin: 0 auto 0 4%;
+	}
+	.tabla2 {
+	float: left;
+	width: 29%;
+	margin: 0 auto 0 4%;
+	
+	}
+	.tabla3 {
+	float: left;
+	width: 29%;
+	margin: 0 auto 0 4%;
+	}
+	
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left: 10px;	
+	} 
+	.tableizer-table td {
+		width:15px;
+		height:10px;
+		padding:2px;
+		margin: 3px;
+		border: 1px solid #CCC;
+		text-align: center;
+		
+	}
+	.tableizer-table th {
+		text-align:center;
+		background-color: black; 
+		color: #FFF;
+		font-weight: bold;
+	}
+	/*estilo fotos*/
+	.scolitidofoto{
+		width: 50%;
+	}
+	/*estilo fuente*/
+	#fuente{
+	font-size: 20px;
+	text-align: center;
+	}
+	/*estilo footer*/
+	.footer{
+		padding:1% 0;
+		display:block;
+		overflow:auto;
+		clear:both;
+		background-color: black;
+		text-align:center;
+		color:white;
+	}
+/*css para movil*/
+	@media screen and (max-width: 1355px){
+	.tabla1 {float:none; width: 33%; margin:0 auto 0 auto;}
+	.tabla2 {float:none; width: 33%; margin:5% auto 5% auto;}
+	.tabla3 {float:none; width: 33%; margin:0 auto 0 auto;}
+	.cabecera {width:95%;font-size:18px;}
+	.presentación,.presentación3,.bienvenido,.bienvenida {font-size: 25px;}
+	.titulo{margin:0;}
+	.presentación3{margin:0; width:100%;}
+	.presentación,.tabla,.divcontacto,.descripciondiv,.resultadodiv,.habody,.prox,.suelo{background-color: transparent; min-height:1425px;margin:0;width:100%;}
+	#fuente{font-size: 14px;margin:0;}
+	.footer{font-size:18px;}
+	.escondermovil{display:none;}
+	.esconderpc{display:inline}
+	body{background-color:white;}
+	#menu{margin:-2% 0;width:100%;}
+	}
