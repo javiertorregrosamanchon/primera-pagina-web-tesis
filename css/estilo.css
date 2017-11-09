@@ -304,9 +304,9 @@
 	}
 /*css para movil*/
 	@media screen and (max-width: 1355px){
-	.tabla1 {float:none; width: 33%; margin:0 auto 0 auto;}
-	.tabla2 {float:none; width: 33%; margin:5% auto 5% auto;}
-	.tabla3 {float:none; width: 33%; margin:0 auto 0 auto;}
+	.tabla1 {float:none; width: 50%; margin:0 auto 0 auto;}
+	.tabla2 {float:none; width: 50%; margin:5% auto 5% auto;}
+	.tabla3 {float:none; width: 50%; margin:0 auto 0 auto;}
 	.cabecera {width:95%;font-size:18px;}
 	.presentación,.presentación3,.bienvenido,.bienvenida {font-size: 25px;}
 	.titulo{margin:0;}
