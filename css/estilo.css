@@ -304,15 +304,16 @@
 	}
 /*css para movil*/
 	@media screen and (max-width: 1355px){
-	.tabla1 {float:left; width: 50%; margin:0 auto 5% auto;}
-	.tabla2 {float:left; width: 50%; margin:0 auto 5% auto;}
-	.tabla3 {float:none; width: 50%; margin:5% auto 0 auto;}
+	.tabla1 {float:left; width: 48%; margin:0 auto 5% 4%; }
+	.tabla2 {float:left; width: 48%; margin:0 auto;}
+	.tabla3 {float:none; width: 50%; margin:0 auto;}
 	.cabecera {width:95%;font-size:18px;}
 	.presentación,.presentación3,.bienvenido,.bienvenida {font-size: 25px;}
 	.titulo{margin:0;}
 	.presentación3{margin:0; width:100%;}
 	.presentación,.tabla,.divcontacto,.descripciondiv,.resultadodiv,.habody,.prox,.suelo{background-color: transparent; min-height:1425px;margin:0;width:100%;}
-	#fuente{font-size: 10px;margin:0;}
+	#fuente{font-size:10px;margin:0;}
+	#fuente2{font-size:15px; margin: 0;}
 	.footer{font-size:18px;}
 	.escondermovil{display:none;}
 	.esconderpc{display:inline}
