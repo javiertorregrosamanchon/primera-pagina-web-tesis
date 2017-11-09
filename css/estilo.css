@@ -231,7 +231,7 @@
 	.graficoimg2{
 	width:60%;
 	display:block;
-	margin:0 auto 0 auto;
+	margin:0 auto;
 	}
 	.grafico1 {
 	float: left;
@@ -319,6 +319,6 @@
 	body{background-color:white;}
 	#menu{margin:-2% 0;width:100%;}
 	.mifoto{width:50%;}
-	.graficoimg1{width:100%;display:block;margin:5% auto;}
+	.graficoimg1{width:100%;display:block;margin:5% auto 0 auto;}
 	.graficoimg2{width:100%;display:block;margin:0 auto;}
 	}
