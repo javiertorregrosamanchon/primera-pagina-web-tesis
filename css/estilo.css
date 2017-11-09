@@ -312,10 +312,11 @@
 	.titulo{margin:0;}
 	.presentación3{margin:0; width:100%;}
 	.presentación,.tabla,.divcontacto,.descripciondiv,.resultadodiv,.habody,.prox,.suelo{background-color: transparent; min-height:1425px;margin:0;width:100%;}
-	#fuente{font-size: 14px;margin:0;}
+	#fuente{font-size: 10px;margin:0;}
 	.footer{font-size:18px;}
 	.escondermovil{display:none;}
 	.esconderpc{display:inline}
 	body{background-color:white;}
 	#menu{margin:-2% 0;width:100%;}
+	.mifoto{width:50%;}
 	}
