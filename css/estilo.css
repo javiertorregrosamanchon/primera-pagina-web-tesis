@@ -304,9 +304,9 @@
 	}
 /*css para movil*/
 	@media screen and (max-width: 1355px){
-	.tabla1 {float:none; width: 50%; margin:0 auto 0 auto;}
-	.tabla2 {float:none; width: 50%; margin:5% auto 5% auto;}
-	.tabla3 {float:none; width: 50%; margin:0 auto 0 auto;}
+	.tabla1 {float:left; width: 50%; margin:0 auto 5% auto;}
+	.tabla2 {float:left; width: 50%; margin:0 auto 5% auto;}
+	.tabla3 {float:none; width: 50%; margin:5% auto 0 auto;}
 	.cabecera {width:95%;font-size:18px;}
 	.presentación,.presentación3,.bienvenido,.bienvenida {font-size: 25px;}
 	.titulo{margin:0;}
@@ -319,4 +319,6 @@
 	body{background-color:white;}
 	#menu{margin:-2% 0;width:100%;}
 	.mifoto{width:50%;}
+	.graficoimg1{width:100%;display:block;margin:5% auto;}
+	.graficoimg2{width:100%;display:block;margin:0 auto;}
 	}
