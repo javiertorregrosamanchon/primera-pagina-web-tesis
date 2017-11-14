@@ -377,7 +377,6 @@
 /*css para movil*/
 	@media screen and (max-width: 1355px){
 	.inicioLetras {font-size:25px;}
-	.primerImgInicio,.segundaImgInicio,.terceraImgInicio,.cuartaImgInicio,.quintaImgInicio,.sextaImgInicio {width:100%;}
 	.tabla1 {float:left; width: 40%; margin:0 0 5% 10%;}
 	.tabla2 {float:left; width: 40%; margin:0 0 5% 0;}
 	.tabla3 {float:none; width: 40%; margin:0 auto;}
