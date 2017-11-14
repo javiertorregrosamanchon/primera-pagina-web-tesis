@@ -367,6 +367,7 @@
 	}
 /*css para movil*/
 	@media screen and (max-width: 1355px){
+	.inicioLetras {font-size:25px;}
 	.primerImgInicio,.segundaImgInicio,.terceraImgInicio,.cuartaImgInicio,.quintaImgInicio,.sextaImgInicio {width:100%;}
 	.tabla1 {float:left; width: 40%; margin:0 0 5% 10%;}
 	.tabla2 {float:left; width: 40%; margin:0 0 5% 0;}
@@ -386,8 +387,5 @@
 	.mifoto{width:50%;}
 	.graficoimg1{width:100%;display:block;margin:5% auto 0 auto;}
 	.graficoimg2{width:100%;display:block;margin:0 auto;}
-	.contacto {
-	margin:0 auto;
-	width:4%;
-	}
+	.contacto {margin:0 auto;width:4%;}
 	}
