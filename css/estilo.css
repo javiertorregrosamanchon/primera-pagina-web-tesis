@@ -86,6 +86,7 @@
 }
 /*estilo inicio*/
 .primerImgInicio{
+	font-size:23px;
 	text-align:center;
 	padding:10px;
 	min-height:300px;
@@ -93,6 +94,7 @@
 	width:50%;
 }
 .segundaImgInicio{
+	font-size:23px;
 	text-align:center;
 	padding:10px;
 	min-height:300px;
@@ -100,6 +102,7 @@
 	width:50%;
 }
 .terceraParte{
+	font-size:23px;
 	text-align:center;
 	padding:10px;
 	min-height:500px;
@@ -107,10 +110,12 @@
 	width:100%;
 }
 .indice{
+	font-size:23px;
 	width:100%;
 	padding:10px;
 }
 .terceraImgInicio{
+	font-size:23px;
 	text-align:center;
 	padding:10px;
 	min-height:300px;
@@ -118,6 +123,7 @@
 	width:25%;
 }
 .cuartaImgInicio{
+	font-size:23px;
 	text-align:center;
 	padding:10px;
 	min-height:300px;
@@ -125,6 +131,7 @@
 	width:25%;
 }
 .quintaImgInicio{
+	font-size:23px;
 	text-align:center;
 	padding:10px;
 	min-height:300px;
@@ -132,6 +139,7 @@
 	width:25%;
 }
 .sextaImgInicio{
+	font-size:23px;
 	text-align:center;
 	padding:10px;
 	min-height:300px;
@@ -139,6 +147,7 @@
 	width:25%;
 }
 .septimaImgInicio{
+	font-size:23px;
 	text-align:center;
 	padding:10px;
 	min-height:300px;
