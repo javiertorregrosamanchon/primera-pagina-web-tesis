@@ -84,6 +84,67 @@
 	background-size: cover;
 	
 }
+/*estilo inicio*/
+.primerImgInicio{
+	text-align:center;
+	padding:10px;
+	min-height:300px;
+	float:left;
+	width:50%;
+}
+.segundaImgInicio{
+	text-align:center;
+	padding:10px;
+	min-height:300px;
+	float:left;
+	width:50%;
+}
+.terceraParte{
+	text-align:center;
+	padding:10px;
+	min-height:500px;
+	float:left;
+	width:100%;
+}
+.indice{
+	width:100%;
+	padding:10px;
+}
+.terceraImgInicio{
+	text-align:center;
+	padding:10px;
+	min-height:300px;
+	float:left;
+	width:25%;
+}
+.cuartaImgInicio{
+	text-align:center;
+	padding:10px;
+	min-height:300px;
+	float:left;
+	width:25%;
+}
+.quintaImgInicio{
+	text-align:center;
+	padding:10px;
+	min-height:300px;
+	float:left;
+	width:25%;
+}
+.sextaImgInicio{
+	text-align:center;
+	padding:10px;
+	min-height:300px;
+	float:left;
+	width:25%;
+}
+.septimaImgInicio{
+	text-align:center;
+	padding:10px;
+	min-height:300px;
+	float:left;
+	width:100%;
+}
 .presentación3{
 	padding: 0 10% 0 10%;
 	float: left;
@@ -306,11 +367,12 @@
 	}
 /*css para movil*/
 	@media screen and (max-width: 1355px){
+	.primerImgInicio,.segundaImgInicio,.terceraImgInicio,.cuartaImgInicio,.quintaImgInicio,.sextaImgInicio {width:100%;}
 	.tabla1 {float:left; width: 40%; margin:0 0 5% 10%;}
 	.tabla2 {float:left; width: 40%; margin:0 0 5% 0;}
 	.tabla3 {float:none; width: 40%; margin:0 auto;}
 	.cabecera {width:95%;font-size:18px;}
-	.presentación,.presentación3,.bienvenido,.bienvenida {font-size: 25px;}
+	.presentación,.presentación3,.bienvenido,.bienvenida,.primerImgInicio,.segundaImgInicio,.terceraImgInicio,.cuartaImgInicio,.quintaImgInicio,.sextaImgInicio {font-size: 25px;}
 	.titulo{margin:0;}
 	.presentación3{margin:0; width:100%;}
 	.presentación,.tabla,.divcontacto,.descripciondiv,.resultadodiv,.habody,.prox,.suelo{background-color: transparent; min-height:1425px;margin:0;width:100%;}
