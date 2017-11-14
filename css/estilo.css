@@ -318,7 +318,7 @@
 	.escondermovil{display:none;}
 	.esconderpc{display:inline}
 	body{background-color:white;}
-	#menu{margin:-2% 0;width:100%;}
+	#menu{margin:-2% 0;width:100%;margin-top:-1%;}
 	.mifoto{width:50%;}
 	.graficoimg1{width:100%;display:block;margin:5% auto 0 auto;}
 	.graficoimg2{width:100%;display:block;margin:0 auto;}
