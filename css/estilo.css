@@ -276,7 +276,7 @@
 	.navegación{margin:0 10%;width:80%;}
 	.contacto {width:5%;}
 	.presentacion1{background-color:#E8F2B5;padding:2.5%;}
-	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{width:95%; min-height:300px;}
-	.flecha, .flecha1 ,.flecha2 ,.flecha3 ,.flecha4 ,.flecha5 ,.flecha6 {margin-top:30%; width:20%;}
+	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{width:95%; min-height:200px;}
+	.flecha, .flecha1 ,.flecha2 ,.flecha3 ,.flecha4 ,.flecha5 ,.flecha6 {margin-top:30%; width:19%; left:35%;}
 	/*menu*/
 	}
