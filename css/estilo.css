@@ -145,7 +145,8 @@
 		color:white;
 	}
 	/*main*/
-	.presentacion1{margin:10px; 
+	.presentacion1{
+	margin:10px; 
 	background-color:#DFFFB4;
 	border-radius:10px;
 	padding:20px 20px;
@@ -265,6 +266,8 @@
 	
 /*css para movil*/
 	@media screen and (max-width: 1080px){
+	body{width:100%;}
+	.presentacion1{margin:0;}
 	.escondermovil{display:none;}
 	.esconderpc{display:inline}	
 	#fuente{font-size:10px;margin:0;}00
@@ -277,6 +280,77 @@
 	.contacto {width:5%;}
 	.presentacion1{background-color:#E8F2B5;padding:2.5%;}
 	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{width:95%; min-height:200px;}
-	.flecha, .flecha1 ,.flecha2 ,.flecha3 ,.flecha4 ,.flecha5 ,.flecha6 {margin-top:30%; width:19%; left:35%;}
+	.flecha, .flecha1 ,.flecha2 ,.flecha3 ,.flecha4 ,.flecha5 ,.flecha6 {margin-top:30%; width:19%; left:15%;}
 	/*menu*/
+	.navegación{
+		clear:both;
+		margin:0;
+		padding:0;
+		width:300px;
+		margin:20px auto 0 auto;
+		background-color:black;
+	}
+	.navegacion ul,.submenu1,.submenu2{
+		list-style:none;
+	}
+	.menu>li{
+		position:relative;
+		display:inline-block;
+	}
+	.menu>li>a{
+		display:block;
+		padding:15px 20px;
+		font-family:"arial";
+		text-decoration:none;
+		color:white;
+		font-size:9px;
+	}
+	.menu li a:hover{
+		color:#CE7D35;
+		transition: all.3s;
+	}
+	/*submenu1*/
+	.submenu1{
+		position:absolute;
+		background-color:black;
+		width:100%;
+		visibility:hidden;
+		opacity:0;
+		transition:opacity 1s;
+	}
+	.submenu1 li a{
+		display: block;
+		padding:15px;
+		text-decoration:none;
+		color:white;
+		font-family:"arial";
+		text-align:center;
+	}
+	.menu li:hover .submenu1{
+		visibility:visible;
+		opacity:1;
+	}
+	/*submenu2*/
+	.submenu2{
+		position:absolute;
+		background-color:black;
+		width:100%;
+		left:100%;
+		top:0;
+		visibility:hidden;
+	}
+	.submenu2 li a{
+		display: block;
+		padding:15px;
+		text-decoration:none;
+		color:white;
+		font-family:"arial";
+		text-align:center;
+	}
+	nav ul li ul li {
+		position:relative;
+	}
+	.submenu1 li:hover .submenu2{
+		visibility:visible;	
+	}
 	}
