@@ -281,7 +281,7 @@
 	.presentacion1{background-color:#E8F2B5;padding:2.5%;}
 	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{width:95%; min-height:200px;margin:0 10px 40px 10px;border-radius:10px;padding:15px;}
 	.flecha, .flecha1 ,.flecha2 ,.flecha3 ,.flecha4 ,.flecha5 ,.flecha6 {margin-top:30%; width:19%; left:35%;}
-	.bienvenido ,.bienvenida{font-size:25px;padding:25px 0 25px 0;
+	.bienvenido ,.bienvenida ,.indice{font-size:25px;padding:25px 0 25px 0;
 	}
 	/*menu*/
 	.navegación{
