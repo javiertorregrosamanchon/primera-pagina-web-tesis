@@ -2,29 +2,29 @@
 <html lang="es">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Página principal</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css"  />
+	<title>Inicio</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 </head>
 <body>
-		<header>
-		<div class="titulo">
+	<header>
+	<div class="cabecera">
 		<div class="logo">
-			<span class="escondermovil"><img class="logoimg" src="fotos/logo.png" alt="logo de la página, la cual es una hoja con las iniciales del autor"/>
+			<!-- <span class="escondermovil"><img class="logoimg" src="fotos/logo.png" alt="logo de la página, la cual es una hoja con las iniciales del autor"/> -->
 			<!-- <a class="logoname" href="https://www.freepik.com/free-vector/hand-with-three-leaves-logo_807895.htm">Designed by Freepik</a> --></span>
-			</div>
-			<div class="cabecera">
-				<h1><cite>Técnicas en geomática para el control de plagas de escolítidos</cite></h1>
-			</div>		
 		</div>
-		<nav id="menu">
-				<ul>
-					<li class="nivel1"><a href="index.html" class="nivel1">Inicio</a></li>
-					<li class="nivel1"><a href="informacion%20pagina.html" class="nivel1"><span class="esconderpc">Inf. página</span><span class="escondermovil">¿Qué es esta página?</span></a></li> 
-					<li class="nivel1"><a href="descipción.html" class="nivel1">Información<span class="escondermovil"> del insecto</span></a></li>
-					<li class="nivel1"><a href="#" class="nivel1">Municipios</a>
-						<ul class="nivel2">
-							<li class="municipios"><a href="#">Orihuela</a>
-									<ul class="opciones">
+		<div class="titulo">
+				<h1><cite>Técnicas en geomática para el control de plagas de escolítidos</cite></h1>
+		</div>		
+		<nav class="navegación">
+				<ul class="menu">
+					<li><a href="index.html" class="nivel1">Inicio</a></li>
+					<li><a href="informacion%20pagina.html" class="nivel1">About me</a></li> 
+					<li><a href="descipción.html" class="nivel1">Información<span class="escondermovil"> del insecto</span></a></li>
+					<li><a href="datosMunicipios.html" class="nivel1">Datos municipios</a>
+						<ul class="submenu1">
+							<li><a href="#">Orihuela</a>
+									<ul class="submenu2">
 										<li ><a href="página%20web%20lluvias%20orihuela%20redovan%20otoño_1.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20orihuela%20redovan%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20orihuela%20redovan.html"> Superficie de Ha de pinar</a></li>
@@ -32,8 +32,8 @@
 										<li><a href="proximidad%20orihuela%20redovan.html"> Análisis proximidad</a></li>
 									</ul>
 							</li>
-							<li class="municipios"><a href="#">Redován</a>
-									<ul class="opciones">
+							<li><a href="#">Redován</a>
+									<ul class="submenu2">
 										<li><a href="página%20web%20lluvias%20orihuela%20redovan%20otoño_1.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20orihuela%20redovan%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20orihuela%20redovan.html"> Superficie de Ha de pinar</a></li>
@@ -41,8 +41,8 @@
 										<li><a href="proximidad%20orihuela%20redovan.html"> Análisis proximidad</a></li>
 									</ul>
 							</li>
-							<li class="municipios"><a href="#">Elche</a>
-									<ul class="opciones">
+							<li><a href="#">Elche</a>
+									<ul class="submenu2">
 										<li><a href="página%20web%20lluvias%20elche%20otoño.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20elche%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20elche.html"> Superficie de Ha de pinar</a></li>
@@ -50,8 +50,8 @@
 										<li><a href="proximidad%20elche.html"> Análisis proximidad</a></li>
 									</ul>
 							</li>
-							<li class="municipios"><a href="#">Jijona</a>
-									<ul class="opciones">
+							<li><a href="#">Jijona</a>
+									<ul class="submenu2">
 										<li><a href="página%20web%20lluvias%20jijona%20otoño.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20jijona%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20jijona.html"> Superficie de Ha de pinar</a></li>
@@ -59,8 +59,8 @@
 										<li><a href="proximidad%20jijona.html"> Análisis proximidad</a></li>
 									</ul>
 							</li>
-							<li class="municipios"><a href="#">Villajoyosa</a>
-									<ul class="opciones">
+							<li><a href="#">Villajoyosa</a>
+									<ul class="submenu2">
 										<li><a href="página%20web%20lluvias%20villajoyosa%20otoño.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20villajoyosa%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20villajoyosa.html"> Superficie de Ha de pinar</a></li>
@@ -70,26 +70,14 @@
 							</li>
 						</ul>
 					</li>
-					<li class="nivel1"><a href="resultados.html" class="nivel1"> Conclusiones <span class="escondermovil">y resultados</span></a></li>
-					<!-- <li class="nivel1"><a href="contacto.html" class="nivel1"> Contacto</a></li> -->
+					<li><a href="resultados.html" class="nivel1"> Conclusiones <span class="escondermovil">y resultados</span></a></li>
 				</ul>
-	</nav>
-		<!-- <div class="cabecera2"> -->
-				<!-- <p>Esta página web estará exclusivamente dedicada a la publicación de los datos y resultados obtenidos<span class="esconderpc">.</span><span class="escondermovil"> en la tesis realizada por Javier Torregrosa Manchón para la Universidad de Alicante.</span></p> -->
-		<!-- </div> -->
-		
-		</header>
+		</nav>
+	</div>
+	</header>
 	<main>
-	<!-- <span class="escondermovil"><div class="google" id="google"> -->
-					<!-- <form action="http://www.google.com/search" method="get"> -->
-						<!--<img class="imggoogle" src="fotos/google.png" width="100" height=""/>-->
-						<!-- <input class="googletext" type=text name=q> -->
-						<!-- <button class="botongoogle"><img class="imggoogle" src="fotos/google.png"/> </button> -->
-					<!-- </form> -->
-		<!-- </div></span> -->
-		<div class="imgpino">
-		</div>
-		<div class="descripciondiv">	
+	<div class="imgpino"></div>
+	<div class="presentacion1">
 			<h2 class="titulodescrip">Información básica del insecto</h2>
 			<p> En este apartado puedes obtener toda la información que necesite sobre la familia, género y el ciclo biológico de los escolítidos, especialmente, a los especímenes pertenecientes al género tomicus, ya que el proyecto se centra, principalmente en ellos.
 				<h3 class="desh3">Familia</h3>
@@ -106,7 +94,7 @@
 	<footer class="footer">
 		<address> Autor de la web: Javier Torregrosa Manchón <br/>
 		Geógrafo especializado en teledetección ambiental <br/>
-		<div class="contactos">Encontranos en:<br/></div>
+		<div class="contactos">Encuéntranos en:<br/></div>
 		Vía Email:jtorregrosamanchon@gmail.com<br/>
 		<div class="divimgcont">
 		<a href="https://www.linkedin.com/in/javier-torregrosa-manchon/"><img class="contacto" src="fotos/linkedin.png" alt="icono de la plataforma linkedin" /></a>
