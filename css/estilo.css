@@ -279,7 +279,8 @@
 	.contacto {width:5%;}
 	.presentacion1{background-color:#E8F2B5;padding:20px 0 0 0; font-size:17px;margin:0; border-radius:0;}
 	.titulo{font-size:14px;}
-	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{width:95%; min-height:100px;margin:0 10px 40px 10px;border-radius:10px;padding:15px; font-size:16px;}
+	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio {width:95%; min-height:100px;margin:0 10px 40px 10px;border-radius:10px;padding:15px; font-size:16px;}
+	.septimaImgInicio{width:95%; min-height:100px;margin:0 10px 0px 10px;border-radius:10px;padding:15px; font-size:16px;}
 	.flecha, .flecha1 ,.flecha2 ,.flecha3 ,.flecha4 ,.flecha5 ,.flecha6 {margin-top:20%; width:19%; left:35%;}
 	.opcionesInicio{padding-top:25px;}
 	.bienvenida {text-align:justify;  font-size:16px; padding:20px 20px 30px 20px;}
