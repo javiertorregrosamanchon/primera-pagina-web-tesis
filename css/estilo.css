@@ -278,11 +278,11 @@
 	.graficoimg2{width:100%;display:block;margin:0 auto;}
 	.navegación{margin:0 10%;width:80%;}
 	.contacto {width:5%;}
-	.presentacion1{background-color:#E8F2B5;padding:2.5%;}
-	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{font-size:16px;width:95%; min-height:200px;margin:0 10px 40px 10px;border-radius:10px;padding:15px;}
+	.presentacion1{background-color:#E8F2B5;padding:2.5%; font-size:16;}
+	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{font-size:16px;width:95%; min-height:150px;margin:0 10px 40px 10px;border-radius:10px;padding:15px;}
 	.flecha, .flecha1 ,.flecha2 ,.flecha3 ,.flecha4 ,.flecha5 ,.flecha6 {margin-top:30%; width:19%; left:35%;}
 	.bienvenido ,.bienvenida ,.indice{font-size:18px;padding:25px 0 25px 0;}
-	.titulo {font-size:20px;}
+	.titulo {font-size:16px;}
 	/*menu*/
 	.navegación{
 		clear:both;
