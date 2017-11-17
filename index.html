@@ -3,28 +3,28 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Inicio</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css"  />
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 </head>
 <body>
-		<header>
-		<div class="titulo">
+	<header>
+	<div class="cabecera">
 		<div class="logo">
-			<span class="escondermovil"><img class="logoimg" src="fotos/logo.png" alt="logo de la página, la cual es una hoja con las iniciales del autor"/>
+			<!-- <span class="escondermovil"><img class="logoimg" src="fotos/logo.png" alt="logo de la página, la cual es una hoja con las iniciales del autor"/> -->
 			<!-- <a class="logoname" href="https://www.freepik.com/free-vector/hand-with-three-leaves-logo_807895.htm">Designed by Freepik</a> --></span>
-			</div>
-			<div class="cabecera">
-				<h1><cite>Técnicas en geomática para el control de plagas de escolítidos</cite></h1>
-			</div>		
 		</div>
-		<nav id="menu">
-				<ul>
-					<li class="nivel1"><a href="index.html" class="nivel1">Inicio</a></li>
-					<li class="nivel1"><a href="informacion%20pagina.html" class="nivel1"><span class="esconderpc">Inf. página</span><span class="escondermovil">¿Qué es esta página?</span></a></li> 
-					<li class="nivel1"><a href="descipción.html" class="nivel1">Información<span class="escondermovil"> del insecto</span></a></li>
-					<li class="nivel1"><a href="#" class="nivel1">Municipios</a>
-						<ul class="nivel2">
-							<li class="municipios"><a href="#">Orihuela</a>
-									<ul class="opciones">
+		<div class="titulo">
+				<h1><cite>Técnicas en geomática para el control de plagas de escolítidos</cite></h1>
+		</div>		
+		<nav class="navegación">
+				<ul class="menu">
+					<li><a href="index.html" class="nivel1">Inicio</a></li>
+					<li><a href="informacion%20pagina.html" class="nivel1">About me</a></li> 
+					<li><a href="descipción.html" class="nivel1">Información<span class="escondermovil"> del insecto</span></a></li>
+					<li><a href="datosMunicipios.html" class="nivel1">Datos municipios</a>
+						<ul class="submenu1">
+							<li><a href="#">Orihuela</a>
+									<ul class="submenu2">
 										<li ><a href="página%20web%20lluvias%20orihuela%20redovan%20otoño_1.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20orihuela%20redovan%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20orihuela%20redovan.html"> Superficie de Ha de pinar</a></li>
@@ -32,8 +32,8 @@
 										<li><a href="proximidad%20orihuela%20redovan.html"> Análisis proximidad</a></li>
 									</ul>
 							</li>
-							<li class="municipios"><a href="#">Redován</a>
-									<ul class="opciones">
+							<li><a href="#">Redován</a>
+									<ul class="submenu2">
 										<li><a href="página%20web%20lluvias%20orihuela%20redovan%20otoño_1.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20orihuela%20redovan%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20orihuela%20redovan.html"> Superficie de Ha de pinar</a></li>
@@ -41,8 +41,8 @@
 										<li><a href="proximidad%20orihuela%20redovan.html"> Análisis proximidad</a></li>
 									</ul>
 							</li>
-							<li class="municipios"><a href="#">Elche</a>
-									<ul class="opciones">
+							<li><a href="#">Elche</a>
+									<ul class="submenu2">
 										<li><a href="página%20web%20lluvias%20elche%20otoño.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20elche%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20elche.html"> Superficie de Ha de pinar</a></li>
@@ -50,8 +50,8 @@
 										<li><a href="proximidad%20elche.html"> Análisis proximidad</a></li>
 									</ul>
 							</li>
-							<li class="municipios"><a href="#">Jijona</a>
-									<ul class="opciones">
+							<li><a href="#">Jijona</a>
+									<ul class="submenu2">
 										<li><a href="página%20web%20lluvias%20jijona%20otoño.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20jijona%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20jijona.html"> Superficie de Ha de pinar</a></li>
@@ -59,8 +59,8 @@
 										<li><a href="proximidad%20jijona.html"> Análisis proximidad</a></li>
 									</ul>
 							</li>
-							<li class="municipios"><a href="#">Villajoyosa</a>
-									<ul class="opciones">
+							<li><a href="#">Villajoyosa</a>
+									<ul class="submenu2">
 										<li><a href="página%20web%20lluvias%20villajoyosa%20otoño.html"> Lluvias otoño</a></li>
 										<li><a href="página%20web%20lluvias%20villajoyosa%20primavera.html"> Lluvias primavera</a></li>
 										<li><a href="ha%20villajoyosa.html"> Superficie de Ha de pinar</a></li>
@@ -70,44 +70,46 @@
 							</li>
 						</ul>
 					</li>
-					<li class="nivel1"><a href="resultados.html" class="nivel1"> Conclusiones <span class="escondermovil"> y resultados</span></a></li>
-					<!-- <li class="nivel1"><a href="contacto.html" class="nivel1"> Contacto</a></li> -->
+					<li><a href="resultados.html" class="nivel1"> Conclusiones <span class="escondermovil">y resultados</span></a></li>
 				</ul>
-	</nav>
-		<!-- <div class="cabecera2"> -->
-				<!-- <p>Esta página web estará exclusivamente dedicada a la publicación de los datos y resultados obtenidos<span class="esconderpc">.</span><span class="escondermovil"> en la tesis realizada por Javier Torregrosa Manchón para la Universidad de Alicante.</span></p> -->
-		<!-- </div> -->
-		
-		</header>
+		</nav>
+	</div>
+	</header>
 	<main>
-	<!-- <span class="escondermovil"><div class="google" id="google"> -->
-					<!-- <form action="http://www.google.com/search" method="get"> -->
-						<!--<img class="imggoogle" src="fotos/google.png" width="100" height=""/>-->
-						<!-- <input class="googletext" type=text name=q> -->
-						<!-- <button class="botongoogle"><img class="imggoogle" src="fotos/google.png"/> </button> -->
-					<!-- </form> -->
-		<!-- </div></span> -->
-		<div class="imgpino">
-		</div>
-	<div class="presentación3">
-	<h2 class="presentacion2">¡Bienvenida! ¡Bienvenido!</h2>
+	<div class="imgpino"></div>
+	<div class="presentacion1">
+		<h2 class="presentacion2">EN CONSTRUCCIÓN</br>¡Bienvenida! ¡Bienvenido!</h2>
 		<p class="bienvenido">Si quieres informarte acerca de los avances en la tesis <cite>"Técnicas en geomática para el control de plagas de escolídos"</cite>.<br/>
 		¡No busques más, este es tu lugar!</p>
 	</div>
-		<div class="presentación">	
-			<h2 class="presentacion2">¿Qué puedes encontrar en esta página?</h2>
-			<div class="opcionesInicio">
+	<div class="presentacion1">	
+		<h2 class="presentacion2">¿Qué puedes encontrar en esta página?</h2>
+		<div class="opcionesInicio">
+			<div>
 				<p class="bienvenida">Esta página web contiene todos los datos de la tesis ya nombrada. Estos son totalmente accesibles para cualquier usuario que lo desee.</p>
-				<p class="primerImgInicio">Puedes acceder a información relativa al autor y a la creacción de la página web.</p>
-				<p class="segundaImgInicio"> También informarte de las caracteristicas fisiológicas y biológicas de los escolítidos.</p>
-				<p class="indice"> O si lo prefieres puedes mirar los datos tratados y analizados tales como:</p>
-					<p class="terceraImgInicio">Un banco de datos pluviométricos (temporada de otoño y primavera entre los años 2013 y 2017) de las 5 áreas de estudio (Orihuela, Redován, Elche, Jijona y Villajoyosa)</p>
-					<p class="cuartaImgInicio"> Los usos del suelo que predominan en estas áreas y si guardan relación con la aparición de la plaga de 2014 en los municipios de Orihuela y Redován</p>
-					<p class="quintaImgInicio"> Las hectareas que poseían cada municipio antes del incidente y cuales tienen en la actualidad</p>
-					<p class="sextaImgInicio"> También puedes acceder al apartado de análisis de proximidad a las áreas afectadas en correlación con los usos del suelo</p>
-				<p class="septimaImgInicio"> Y finalmente, las conclusiones y resultados obtenidos en este proyecto</p>
 			</div>
+			
+				
+			<a href="informacion%20pagina.html"><div class="primerImgInicio"><p>Información relativa del autor y la creacción de la página web.</p><img class="flecha" src="fotos/flecha.png" alt="es una flecha."/></div></a>
+				
+		
+			<a href="informacion%20pagina.html"><div class="segundaImgInicio"><p>Información básica de los escolítidos.</p><img class="flecha1" src="fotos/flecha.png" alt="es una flecha."/></div></a>
+			
+			<div class="indice">
+				<p>O si lo prefieres puedes mirar los datos tratados y analizados tales como:</p>
+			</div>
+			
+			<a href="datosMunicipios.html"><div class="terceraImgInicio"><p>Banco de datos pluviométricos (temporada de otoño y primavera 2013 y 2017)</p><img class="flecha2" src="fotos/flecha.png" alt="es una flecha."/></div></a>
+			
+			<a href="datosMunicipios.html"><div class="cuartaImgInicio"><p>Usos del suelo de las áreas de estudio</p><img class="flecha3" src="fotos/flecha.png" alt="es una flecha."/></div></a>
+			
+			<a href="datosMunicipios.html"><div class="quintaImgInicio"><p>Las hectareas que poseía cada municipio antes de 2014 y en la actualidad</p><img class="flecha4" src="fotos/flecha.png" alt="es una flecha."/></div></a>
+			
+			<a href="datosMunicipios.html"><div class="sextaImgInicio"><p>Análisis de proximidad en correlación con los usos del suelo</p><img class="flecha5" src="fotos/flecha.png" alt="es una flecha."/></div></a>
+			
+			<a class="url" href="resultados.html"><div class="septimaImgInicio"><p>Conclusiones y resultados obtenidos en este proyecto</p><img class="flecha6" src="fotos/flecha.png" alt="es una flecha."/></div></a>
 		</div>
+	</div>
 	</main>
 	<footer class="footer">
 		<address> Autor de la web: Javier Torregrosa Manchón <br/>
@@ -122,4 +124,4 @@
 		</address>
 	</footer>
 </body>
-</html>	
+</html>
