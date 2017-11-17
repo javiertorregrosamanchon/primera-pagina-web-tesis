@@ -158,7 +158,7 @@
 	.opcionesInicio{
 		font-size:30px;
 		text-align:center;
-		padding:50px 0 0 0;
+		padding:25px 0 0 0;
 	}
 	.bienvenido ,.bienvenida{
 		font-size:30px;
@@ -279,10 +279,11 @@
 	.navegación{margin:0 10%;width:80%;}
 	.contacto {width:5%;}
 	.presentacion1{background-color:#E8F2B5;padding:2.5%; font-size:15;}
-	.primerImgInicio ,.segundaImgInicio ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{font-size:15px;width:95%; min-height:150px;margin:0 10px 40px 10px;border-radius:10px;padding:15px;}
+	.primerImgInicio , ,.terceraImgInicio ,.cuartaImgInicio ,.quintaImgInicio ,.sextaImgInicio ,.septimaImgInicio{font-size:15px;width:95%; min-height:150px;margin:0 10px 40px 10px;border-radius:10px;padding:15px;}
 	.flecha, .flecha1 ,.flecha2 ,.flecha3 ,.flecha4 ,.flecha5 ,.flecha6 {margin-top:30%; width:19%; left:35%;}
 	.bienvenido ,.bienvenida ,.indice{font-size:15px;padding:15px 10px;}
-	.titulo {font-size:15px;}
+	.titulo {font-size:18px;}
+	.segundaImgInicio{margin:0 10px 20px 10px;}
 	/*menu*/
 	.navegación{
 		clear:both;
