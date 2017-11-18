@@ -185,6 +185,26 @@
 	a{text-decoration:none;}
 	.esconderpc{display:none}
 	
+	/*graficos*/
+	.grafico2 {
+	float: left;
+	width: 100%;
+	}
+	.graficoimg2{
+	width:60%;
+	display:block;
+	margin:0 auto;
+	}
+	.grafico1 {
+	float: left;
+	width: 100%;
+	}
+	.graficoimg1{
+		width:80%;
+		display:block;
+		margin:0 auto;
+	}
+	
 /*css para movil*/
 		@media screen and (max-width: 1000px){
 	.imgpino{min-height:150px;}
@@ -205,13 +225,15 @@
 	.primerImgInicio{width:99%;  font-size:10px;min-height:100px;text-align:center;}
 	.segundaImgInicio{width:99%; font-size:10px;min-height:100px;text-align:center;}
 	.presentacion1{margin:0; border-radius:0;}
-	.presentacion2{font-size:18px;}
+	.presentacion2{font-size:20px;}
 	.bienvenido{padding: 25px 0 0 0; font-size:17px;text-align:justify;}
 	.bienvenida{padding: 25px 0 25px 0; font-size:17px;text-align:justify;}
 	.indice{padding: 25px 0 25px 0; font-size:17px;}
 	.contacto {margin:0 auto;width:5%;}
 	.texto{padding:20px 0 0 0; font-size:17px;}
 	.mifoto{width:50%;}
+	.graficoimg1{width:100%;display:block;margin:5% auto 0 auto;}
+	.graficoimg2{width:100%;display:block;margin:0 auto;}
 	/*menu*/
 	.navegacion ul,.submenu1,.submenu2{
 		list-style:none;
