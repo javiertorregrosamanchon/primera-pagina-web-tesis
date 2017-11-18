@@ -269,7 +269,7 @@
 	body{width:100%;}
 	.escondermovil{display:none;}
 	.esconderpc{display:inline}	
-	#fuente{font-size:10px;margin:0;}00
+	#fuente{font-size:10px;margin:0;padding:10px 10px 20px 10px;}
 	#fuente2{font-size:15px; margin: 0;}
 	.footer{font-size:12px;}
 	.mifoto{width:50%;}
@@ -287,6 +287,7 @@
 	.indice{font-size:16px; padding:0 0 30px 0;}
 	.presentacion2{font-size:17px;border-radius:0;}
 	.bienvenido{text-align:center;  font-size:16px; padding:20px 20px 30px 20px;}
+	.mountori{margin:0 5% 0 5%;}
 	/*menu*/
 	.navegación{
 		clear:both;
