@@ -211,6 +211,7 @@
 	.indice{padding: 25px 0 25px 0; font-size:17px;}
 	.contacto {margin:0 auto;width:5%;}
 	.texto{padding:20px 0 0 0; font-size:17px;}
+	.mifoto{width:50%;}
 	/*menu*/
 	.navegacion ul,.submenu1,.submenu2{
 		list-style:none;
