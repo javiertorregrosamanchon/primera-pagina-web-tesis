@@ -169,6 +169,11 @@
 		text-align:center;
 		padding:50px 0;
 	}
+	.texto{
+		font-size:30px;
+		text-align:center;
+		padding:0 0 25px 0;
+	}
 	.indice{clear:both; padding:25px 0;}
 	.primerImgInicio{width:49%; float:left; font-size:16px; border:3px solid; min-height:200px;margin:0 1% 0 0; border-radius:10px;background-color:#C5F7D2; padding:5px;}
 	.segundaImgInicio{width:49%; float:left;font-size:16px; border:3px solid;min-height:200px;margin:0 1% 0 0;border-radius:10px;background-color:#C5F7D2; padding:5px;}
@@ -182,12 +187,14 @@
 	
 /*css para movil*/
 		@media screen and (max-width: 1000px){
+	.imgpino{min-height:150px;}
 	.cabecera {overflow:auto;}
+	.titulo{font-size:12px;}
 	.escondermovil{display:none;}
 	.esconderpc{display:inline}	
 	#fuente{font-size:15px;margin:0;padding:10px 10px 20px 10px;}
 	#fuente2{font-size:15px; margin:0;}
-	.footer{font-size:14px;}
+	.footer{font-size:13px;}
 	.primerImgInicio{margin-bottom:1%;width:99%;font-size:10px;min-height:100px;text-align:center;}
 	.segudanImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
 	.terceraImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
@@ -197,6 +204,13 @@
 	.septimaImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
 	.primerImgInicio{width:99%;  font-size:10px;min-height:100px;text-align:center;}
 	.segundaImgInicio{width:99%; font-size:10px;min-height:100px;text-align:center;}
+	.presentacion1{margin:0; border-radius:0;}
+	.presentacion2{font-size:18px;}
+	.bienvenido{padding: 25px 0 0 0; font-size:17px;text-align:justify;}
+	.bienvenida{padding: 25px 0 25px 0; font-size:17px;text-align:justify;}
+	.indice{padding: 25px 0 25px 0; font-size:17px;}
+	.contacto {margin:0 auto;width:5%;}
+	.texto{padding:20px 0 0 0; font-size:17px;}
 	/*menu*/
 	.navegacion ul,.submenu1,.submenu2{
 		list-style:none;
