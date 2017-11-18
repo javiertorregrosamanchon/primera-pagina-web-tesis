@@ -188,7 +188,7 @@
 /*css para movil*/
 		@media screen and (max-width: 1000px){
 	.imgpino{min-height:150px;}
-	.cabecera {overflow:auto;}
+	.cabecera {overflow:auto;padding-top:0;}
 	.titulo{font-size:12px;}
 	.escondermovil{display:none;}
 	.esconderpc{display:inline}	
