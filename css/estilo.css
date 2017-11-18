@@ -162,7 +162,7 @@
 	.opcionesInicio{
 		font-size:30px;
 		text-align:center;
-		padding:50px 0 0 0;
+		padding:0;
 	}
 	.bienvenido ,.bienvenida{
 		font-size:30px;
@@ -188,13 +188,15 @@
 	#fuente{font-size:15px;margin:0;padding:10px 10px 20px 10px;}
 	#fuente2{font-size:15px; margin:0;}
 	.footer{font-size:14px;}
-	.terceraImgInicio{width:99%;font-size:10px;}
-	.cuartaImgInicio{width:99%;font-size:10px;}
-	.quintaImgInicio{width:99%;font-size:10px;}
-	.sextaImgInicio{width:99%;font-size:10px;}
-	.septimaImgInicio{width:99%;font-size:10px;}
-	.primerImgInicio{width:99%;  font-size:10px;}
-	.segundaImgInicio{width:99%; font-size:10px;}
+	.primerImgInicio{margin-bottom:1%;width:99%;font-size:10px;min-height:100px;text-align:center;}
+	.segudanImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
+	.terceraImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
+	.cuartaImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
+	.quintaImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
+	.sextaImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
+	.septimaImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
+	.primerImgInicio{width:99%;  font-size:10px;min-height:100px;text-align:center;}
+	.segundaImgInicio{width:99%; font-size:10px;min-height:100px;text-align:center;}
 	/*menu*/
 	.navegacion ul,.submenu1,.submenu2{
 		list-style:none;
