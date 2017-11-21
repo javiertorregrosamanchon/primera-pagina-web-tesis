@@ -244,6 +244,7 @@
 	}
 	/*submenu1*/
 	.submenu1{
+		opacity:1;
 		position:static;
 	}
 	.submenu1 li a{
@@ -252,6 +253,7 @@
 
 	/*submenu2*/
 	.submenu2{
+		opacity:1;
 		position:static;
 	}
 	.submenu2 li a{
