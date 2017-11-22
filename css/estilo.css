@@ -131,8 +131,16 @@
 	}
 	/*estilo fuente*/
 	#fuente{
+	margin:10px auto;
 	font-size: 20px;
 	text-align: center;
+	clear:both;
+	}
+	#fuente2{
+	margin:10px auto;
+	font-size: 20px;
+	text-align: center;
+	clear:both;
 	}
 	/*estilo footer*/
 	.footer{
@@ -184,7 +192,59 @@
 	.septimaImgInicio{width:50%;clear:both;font-size:16px;margin:1% auto;border:3px solid;min-height:200px;border-radius:10px;background-color:#F4F78F; padding:5px;}
 	a{text-decoration:none;}
 	.esconderpc{display:none}
-	
+	/*tablas*/
+	tr:nth-child(odd){
+		background-color:grey;
+	}
+	tr:nth-child(even){
+		background-color:;
+	}
+
+	.tabla1 {
+	float: left;
+	width: 33%;
+	padding:0 1%;
+	}
+	.tabla2 {
+	float: left;
+	width: 33%;
+	padding:0 1%;
+	}
+	.tabla3 {
+	float: left;
+	width: 33%;
+	padding:0 1%;
+	}
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;	
+		margin:0 auto 3% auto;
+	} 
+	.tableizer-table td {
+		width:20%;
+		height:;
+		padding:5px;
+		margin: 3px;
+		border: 1px solid #CCC;
+		text-align: center;
+		
+	}
+	.tableizer-table th {
+		text-align:center;
+		background-color: black; 
+		color: #FFF;
+		font-weight: bold;
+		width:20%;
+		height:;
+		padding:5px;
+		margin: 3px;
+		text-align: center;
+	}
+	.tablas{
+		width:100%;
+		margin:3% auto;
+	}
 	/*graficos*/
 	.grafico2 {
 	float: left;
@@ -207,13 +267,16 @@
 	
 /*css para movil*/
 		@media screen and (max-width: 1000px){
+	.tabla1 {float:left; width: 90%;margin:1% 5%;}
+	.tabla2 {float:left; width: 90%;margin:1% 5%;}
+	.tabla3 {float:none; width: 90%;margin:1% 5%;}
 	.imgpino{min-height:150px;}
 	.cabecera {overflow:auto;padding-top:0;}
 	.titulo{font-size:12px;}
 	.escondermovil{display:none;}
 	.esconderpc{display:inline}	
-	#fuente{font-size:11px;margin:0;padding:10px 10px 10px 10px;}
-	#fuente2{font-size:11px; margin:0;}
+	#fuente{font-size:11px;margin:1% auto;}
+	#fuente2{font-size:11px; margin:1% auto;}
 	.footer{font-size:13px;}
 	.primerImgInicio{margin-bottom:1%;width:99%;font-size:10px;min-height:100px;text-align:center;}
 	.segudanImgInicio{width:99%;font-size:10px;min-height:100px;text-align:center;}
@@ -232,8 +295,8 @@
 	.contacto {margin:0 auto;width:5%;}
 	.texto{padding:20px 0 0 0; font-size:17px;}
 	.mifoto{width:50%;}
-	.graficoimg1{width:100%;display:block;margin:5% auto 0 auto;}
-	.graficoimg2{width:100%;display:block;margin:0 auto;}
+	.graficoimg1{width:100%;display:block;margin:2% auto 0 auto;}
+	.graficoimg2{width:100%;display:block;margin:2% auto 0 auto;}
 	/*menu*/
 	.navegacion ul,.submenu1,.submenu2{
 		list-style:none;
