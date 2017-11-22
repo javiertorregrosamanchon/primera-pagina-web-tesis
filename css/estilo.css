@@ -279,6 +279,9 @@
 	
 /*css para movil*/
 		@media screen and (max-width: 1000px){
+	.Orihuela ,.Redovan ,.Elche ,.Jijona ,.Villajoyosa{width:96%; margin:2%;min-height:180px; float:left;}
+	.container>div>h1{font-size:20px;}
+	.otoño{font-size:12px; text-align:center;}
 	.tabla1 {float:left; width: 90%;margin:1% 5%;}
 	.tabla2 {float:left; width: 90%;margin:1% 5%;}
 	.tabla3 {float:none; width: 90%;margin:1% 5%;}
