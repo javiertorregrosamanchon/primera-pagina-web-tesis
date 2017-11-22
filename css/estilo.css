@@ -180,7 +180,6 @@
 	.texto{
 		font-size:30px;
 		text-align:center;
-		padding:0 0 25px 0;
 	}
 	.indice{clear:both; padding:25px 0;}
 	.primerImgInicio{width:49%; float:left; font-size:16px; border:3px solid; min-height:200px;margin:0 1% 0 0; border-radius:10px;background-color:#C5F7D2; padding:5px;}
