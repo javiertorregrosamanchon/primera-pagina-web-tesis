@@ -193,15 +193,15 @@
 	.quintaImgInicio{width:24%; float:left;font-size:16px;border:3px solid;min-height:200px;margin:0 1% 1% 0;border-radius:10px;background-color:#ADF287; padding:5px;}
 	.sextaImgInicio{width:24%; float:left;font-size:16px;border:3px solid;min-height:200px;margin:0 1% 1% 0;border-radius:10px;background-color:#CCC6BD; padding:5px;}
 	.septimaImgInicio{width:50%;clear:both;font-size:16px;margin:1% auto;border:3px solid;min-height:200px;border-radius:10px;background-color:#F4F78F; padding:5px;}
-	.Orihuela ,.Redovan ,.Elche ,.Jijona {width:48%; float:left; font-size:16px; border:3px solid; min-height:400px;margin:1%; border-radius:10px;background-color:white; padding:1%;}
-	.Villajoyosa {width:45%; clear:both; font-size:16px; border:3px solid; min-height:400px;margin:0 auto 2% auto; border-radius:10px;background-color:white; padding:1%;}
+	.Orihuela ,.Redovan ,.Elche ,.Jijona {width:48%; float:left; font-size:16px; border:3px solid; min-height:200px;margin:1%; border-radius:10px;background-color:white; padding:1%;}
+	.Villajoyosa {width:48%; float:left; font-size:16px; border:3px solid; min-height:200px;margin:0 0 2% 26%; border-radius:10px;background-color:white; padding:1%;}
 	.Imgmuni{width:33%;}
 	.Imgmuni1{width:20%;}
 	.Imgmuni2{width:25%;}
-	.Imgmuni3{width:28%;}
-	.Imgmuni4{width:23%;}
+	.Imgmuni3{width:28.5%;}
+	.Imgmuni4{width:21%;}
 	.opcionesmuni{width:100%; vertical-align:center;}
-	.otoño{width:18%; float:left; font-size:16px; min-height:40px;margin:1%;background-color:white; padding:1%;}
+	.otoño{width:18%; float:left; font-size:16px;margin:1%;background-color:white; padding:1%;}
 	a{text-decoration:none;}
 	.esconderpc{display:none}
 	/*tablas*/
