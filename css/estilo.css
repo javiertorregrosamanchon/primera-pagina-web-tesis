@@ -285,7 +285,7 @@
 	
 /*css para movil*/
 	@media screen and (max-width: 1000px){
-	.mountori{margin-top:2%;}
+	.mountori{margin-top:3%;}
 	.Orihuela ,.Redovan ,.Elche ,.Jijona{width:96%; margin:2%;min-height:180px; float:left;}
 	.Villajoyosa{width:96%; margin:2% 2% 4% 2%;min-height:180px; float:left;}
 	.container>div>h1{font-size:20px;}
