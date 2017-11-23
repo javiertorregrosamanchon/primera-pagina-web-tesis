@@ -175,7 +175,7 @@
 	.opcionesInicio{
 		font-size:30px;
 		text-align:center;
-		padding:0;
+		padding:0 20px;
 	}
 	.bienvenido {
 		font-size:30px;
@@ -284,7 +284,7 @@
 	}
 	
 /*css para movil*/
-		@media screen and (max-width: 1000px){
+	@media screen and (max-width: 1000px){
 	.Orihuela ,.Redovan ,.Elche ,.Jijona{width:96%; margin:2%;min-height:180px; float:left;}
 	.Villajoyosa{width:96%; margin:2% 2% 4% 2%;min-height:180px; float:left;}
 	.container>div>h1{font-size:20px;}
@@ -317,6 +317,7 @@
 	.indice{padding: 25px 0 25px 0; font-size:17px;}
 	.contacto {margin:0 auto;width:5%;}
 	.texto{font-size:17px;}
+	.opcionesInicio{padding:0;}
 	.mifoto{width:40%; padding-top:20px;}
 	.graficoimg1{width:100%;display:block;margin:2% auto 0 auto;}
 	.graficoimg2{width:100%;display:block;margin:2% auto 0 auto;}
